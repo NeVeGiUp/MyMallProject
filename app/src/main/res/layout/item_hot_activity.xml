@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingBottom="9dp"
+              android:paddingLeft="9dp"
+              android:paddingRight="9dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="158dp">
+
+        <ImageView
+            android:id="@+id/item_hot_iv"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:src="@color/app_bg"/>
+
+        <ImageView
+            android:id="@+id/item_hot_go_iv"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="6dp"
+            android:src="@mipmap/click_go2_bg"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_hot_descrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2017淘宝双12，淘宝主会场,疯抢店满减红包疯"
+            android:textColor="@color/colorBlack3"
+            android:textSize="@dimen/dp15"/>
+
+        <TextView
+            android:id="@+id/item_hot_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="剩余：10天"
+            android:textColor="@color/colorBlack9"
+            android:textSize="@dimen/dp12"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

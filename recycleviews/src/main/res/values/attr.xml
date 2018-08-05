@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ProgressWheel-->
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+
+    <!--RoundImageView-->
+    <declare-styleable name="RoundImageView">
+        <attr name="maskType">
+            <enum name="RECTANGLE" value="0" />
+            <enum name="CIRCLE" value="1" />
+            <enum name="ROUNDRECTANGLE" value="2" />
+            <enum name="ROUNDRECTANGLETOP" value="3" />
+        </attr>
+        <attr name="borderWidth_Ri" format="dimension" />
+        <attr name="borderColor_Ri" format="color|reference" />
+    </declare-styleable>
+</resources>

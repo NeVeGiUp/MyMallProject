@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/app_red_bg">
+
+    <ImageView
+        android:id="@+id/mine_setting_iv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="35dp"
+        android:padding="5dp"
+        android:src="@mipmap/setting_xxh"/>
+
+    <com.lgh.havehui.allpackage.widget.CircleImageView
+        android:id="@+id/mine_sculpture"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/mine_setting_iv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/default_touxiang_xxh"/>
+
+    <TextView
+        android:id="@+id/mine_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mine_sculpture"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="8888888888888"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/dp14"/>
+
+    <TextView
+        android:id="@+id/mine_save"
+        android:layout_width="130dp"
+        android:layout_height="23dp"
+        android:layout_below="@+id/mine_phone"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="12dp"
+        android:background="@mipmap/mine_save_bg"
+        android:gravity="center"
+        android:text="已为您节省66元"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/dp13"/>
+
+</RelativeLayout>

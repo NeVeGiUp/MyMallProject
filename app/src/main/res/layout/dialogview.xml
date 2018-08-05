@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/radius5_half_black_bg"
+              android:gravity="center"
+              android:minHeight="85dp"
+              android:minWidth="85dp"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/dp15"
+              android:paddingLeft="20dp"
+              android:paddingRight="20dp"
+              android:paddingTop="@dimen/dp17">
+
+    <!--  <ProgressBar
+          style="?android:attr/progressBarStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>-->
+
+
+    <com.lgh.havehui.allpackage.widget.ProgressWheel
+        android:id="@+id/progress_view"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_gravity="center_horizontal"
+        app:matProg_barColor="@color/colorBlack9"
+        app:matProg_progressIndeterminate="true"/>
+
+
+    <TextView
+        android:id="@+id/dialogview_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="载入中..."
+        android:textColor="@color/colorBlack9"
+        android:textSize="14sp"/>
+
+</LinearLayout>

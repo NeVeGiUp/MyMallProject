@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CouponProduct</string>
+    <string name="mine_order">我的订单</string>
+    <string name="had_coupon">已领优惠劵</string>
+    <string name="mine_collect">我的收藏</string>
+    <string name="browsing_history">浏览足迹</string>
+    <string name="order_gift">下单有礼</string>
+    <string name="coupon_guide">领劵指南</string>
+    <string name="custom">客服与反馈</string>
+    <string name="star">五星好评</string>
+    <string name="set_push">推送设置</string>
+    <string name="share_friend">分享给朋友</string>
+    <string name="clear_cache">清理缓存</string>
+    <string name="remove_bind">解除绑定</string>
+    <string name="borrow_money">快借钱</string>
+    <string name="logoff">退出登录</string>
+    <string name="no_more_data">没有更多数据</string>
+    <string name="shop_cate">商品分类</string>
+    <string name="guess_like">猜你喜欢</string>
+    <string name="inexpensive_nine">超值9块9</string>
+    <string name="inexpensive_twenty">20元封顶</string>
+    <string name="sale_sort">销量排行</string>
+    <string name="common_question">常见问题</string>
+
+</resources>

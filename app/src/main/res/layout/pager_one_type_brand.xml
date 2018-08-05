@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#F9554E"
+              android:orientation="horizontal"
+              android:paddingBottom="8dp"
+              android:paddingLeft="@dimen/dp13"
+              android:paddingRight="@dimen/dp13"
+              android:paddingTop="7dp">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.05"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/left_iv"
+            android:layout_width="match_parent"
+            android:layout_height="183dp"
+            android:src="@color/app_bg"/>
+
+        <ImageView
+            android:id="@+id/left_go_iv"
+            android:layout_width="44dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="@dimen/dp3"
+            android:layout_marginTop="60dp"
+            android:src="@mipmap/go"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_weight="1.6"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/right_top_iv"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_marginBottom="@dimen/dp4"
+            android:src="@color/app_bg"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/right_bottom_iv1"
+                android:layout_width="0dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:src="@color/app_bg"/>
+
+            <ImageView
+                android:id="@+id/right_bottom_iv2"
+                android:layout_width="0dp"
+                android:layout_height="79dp"
+                android:layout_marginLeft="@dimen/dp3"
+                android:layout_weight="1"
+                android:src="@color/app_bg"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

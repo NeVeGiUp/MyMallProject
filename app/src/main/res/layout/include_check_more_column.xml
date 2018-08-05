@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:paddingBottom="7dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="10dp"
+                android:paddingTop="9dp">
+
+    <ImageView
+        android:id="@+id/hot_recommend_iv"
+        android:layout_width="83dp"
+        android:layout_height="27dp"
+        android:src="@mipmap/hot_recommend"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/hot_recommend_iv"
+        android:text="好货买买买"
+        android:textColor="@color/colorBlack3"
+        android:textSize="@dimen/dp13"/>
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="@dimen/dp14"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/check_more_tv"
+        android:background="@color/check_more_bg"/>
+
+    <TextView
+        android:id="@+id/check_more_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:padding="2dp"
+        android:text="查看更多"
+        android:textColor="@color/check_more_bg"
+        android:textSize="@dimen/dp13"/>
+
+
+</RelativeLayout>

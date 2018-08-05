@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:overScrollMode="never"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_search_heard"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:gravity="center"
+                android:paddingBottom="18dp"
+                android:paddingTop="22dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_toLeftOf="@+id/shop_cate_tv"
+                    android:src="@mipmap/cate_line"/>
+
+
+                <TextView
+                    android:id="@+id/shop_cate_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop_cate"
+                    android:textColor="@color/colorBlack3"
+                    android:textSize="@dimen/dp12"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_toRightOf="@+id/shop_cate_tv"
+                    android:src="@mipmap/cate_line"/>
+
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/search_cate_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorWhite"
+                android:paddingBottom="@dimen/dp13"></android.support.v7.widget.RecyclerView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:gravity="center"
+                android:paddingBottom="14dp"
+                android:paddingTop="@dimen/dp14">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_toLeftOf="@+id/shop_like_tv"
+                    android:src="@mipmap/like_line"/>
+
+
+                <TextView
+                    android:id="@+id/shop_like_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/guess_like"
+                    android:textColor="@color/app_red_bg"
+                    android:textSize="@dimen/dp12"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_toRightOf="@+id/shop_like_tv"
+                    android:src="@mipmap/like_line"/>
+
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:paddingLeft="8dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="4dp"
+                android:paddingRight="8dp"
+                android:id="@+id/search_like_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

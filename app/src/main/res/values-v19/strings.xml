@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="had_coupon">已领优惠劵</string>
+    <string name="mine_collect">我的收藏</string>
+    <string name="browsing_history">浏览足迹</string>
+</resources>

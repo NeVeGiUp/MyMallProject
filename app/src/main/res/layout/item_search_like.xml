@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:id="@+id/like_contain"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/like_iv"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:background="@color/app_bg"/>
+
+    <TextView
+        android:id="@+id/like_descrip_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/like_iv"
+        android:layout_marginTop="9dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="元气小脸柔色植物腮红胭 脂脂粉修容提亮修容提亮定妆控油"
+        android:textColor="@color/colorBlack3"
+        android:textSize="14dp"/>
+
+    <ImageView
+        android:id="@+id/coupon_price_iv"
+        android:layout_width="35dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/like_descrip_tv"
+        android:layout_marginTop="18dp"
+        android:src="@mipmap/coupon_price"/>
+
+    <TextView
+        android:id="@+id/like_price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coupon_price_iv"
+        android:layout_marginTop="5dp"
+        android:text="¥ 30.42"
+        android:textColor="@color/app_red_bg"
+        android:textSize="@dimen/dp13"/>
+
+    <TextView
+        android:id="@+id/like_soldout_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/coupon_price_iv"
+        android:text="已售 8384"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/colorBlack9"
+        android:textSize="@dimen/dp12"/>
+
+
+</RelativeLayout>

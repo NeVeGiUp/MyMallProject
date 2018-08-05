@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <View android:layout_width="match_parent" android:layout_height="@dimen/dp10"/>
+
+<!--    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dp14"
+        android:paddingTop="@dimen/dp14"
+        android:text="- 今日推荐 -"
+        android:textColor="@color/app_red_bg"
+        android:textSize="@dimen/dp13"/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:paddingBottom="14dp"
+        android:paddingTop="@dimen/dp14">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_toLeftOf="@+id/shop_like_tv"
+            android:src="@mipmap/like_line"/>
+
+
+        <TextView
+            android:id="@+id/shop_like_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今日推荐"
+            android:textColor="@color/app_red_bg"
+            android:textSize="@dimen/dp13"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/shop_like_tv"
+            android:src="@mipmap/like_line"/>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#E1E1E1"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:overScrollMode="never"
+        android:id="@+id/jrtj_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

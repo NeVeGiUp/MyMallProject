@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <View android:layout_width="match_parent" android:layout_height="8dp"/>
+
+    <com.zhouwei.mzbanner.MZBannerView
+        android:id="@+id/home_pagerone_banner"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        app:canLoop="true"
+        app:indicatorAlign="center"
+        app:middle_page_cover="false"
+        app:open_mz_mode="true"/>
+
+    <View android:layout_width="match_parent" android:layout_height="6dp"/>
+
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:id="@+id/home_pagerone_cate_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"></LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="10dp"/>
+
+
+</LinearLayout>

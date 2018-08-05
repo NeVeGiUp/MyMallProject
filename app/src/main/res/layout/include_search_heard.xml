@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/app_red_bg"
+                android:paddingBottom="22dp"
+                android:paddingTop="33dp">
+
+    <TextView
+        android:id="@+id/search_use_direction_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="@dimen/dp13"
+        android:paddingTop="5dp"
+        android:text="使用说明"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/dp12"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_below="@+id/search_coupon_count_tv"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginTop="@dimen/dp13"
+        android:background="@mipmap/search_coupon_bg"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_marginTop="@dimen/dp2"
+            android:id="@+id/search_iv"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@mipmap/search_iv"/>
+
+        <EditText
+            android:id="@+id/search_input_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/search_iv"
+            android:background="@null"
+            android:layout_marginBottom="@dimen/dp2"
+            android:hint="输入商品名或粘贴淘宝标题"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="@dimen/dp12"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/search_coupon_count_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="共 235648949 张优惠券"
+        android:textColor="@color/colorWhite"
+        android:textSize="19dp" android:layout_below="@+id/search_use_direction_tv"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>

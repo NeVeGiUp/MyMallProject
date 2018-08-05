@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/dp10">
+
+    <ImageView
+        android:id="@+id/today_recommend_iv"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="@dimen/dp10"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="@dimen/dp16"
+        android:src="@color/app_bg"/>
+
+    <TextView
+
+        android:id="@+id/today_recommend_descrip_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/today_recommend_iv"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="元气小脸柔色植物腮红胭脂粉修 容提亮定妆控油容提亮定妆控..."
+        android:textColor="@color/colorBlack3"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/today_recommend_taobao_price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/today_recommend_descrip_tv"
+        android:layout_toRightOf="@+id/today_recommend_iv"
+        android:text="淘宝价￥59.9"
+        android:textColor="@color/colorBlack9"
+        android:textSize="@dimen/dp12"/>
+
+    <ImageView
+        android:id="@+id/coupon_price_iv"
+        android:layout_width="42dp"
+        android:layout_height="12dp"
+        android:layout_below="@+id/today_recommend_taobao_price_tv"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/today_recommend_iv"
+        android:src="@mipmap/home_coupon_price"/>
+
+    <TextView
+        android:id="@+id/today_recommend_coupon_price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/today_recommend_taobao_price_tv"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/coupon_price_iv"
+        android:text="￥50.42"
+        android:textColor="@color/app_red_bg"
+        android:textSize="@dimen/dp13"/>
+
+    <TextView
+        android:id="@+id/today_recommend_sold_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/today_recommend_descrip_tv"
+        android:layout_marginRight="19dp"
+        android:text="已售 8384"
+        android:textColor="@color/colorBlack9"
+        android:textSize="@dimen/dp12"/>
+
+    <ImageView
+        android:layout_width="57dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/today_recommend_sold_count"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="@dimen/dp2"
+        android:src="@mipmap/coupon_ten"/>
+
+    <TextView
+        android:id="@+id/today_recommend_coupon_yuan_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/today_recommend_sold_count"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="@dimen/dp3"
+        android:text="10元券"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/dp12"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/today_recommend_iv"
+        android:background="@color/colorBlack339"/>
+
+</RelativeLayout>

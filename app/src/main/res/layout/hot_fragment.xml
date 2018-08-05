@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_red_bg"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:paddingTop="42dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="活动专题"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/dp17"/>
+    </LinearLayout>
+
+
+    <!--  <android.support.v4.widget.SwipeRefreshLayout
+          android:id="@+id/hot_refresh"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">-->
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/hot_smartRefresh"
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:paddingTop="11dp"
+            android:id="@+id/hot_recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"></android.support.v7.widget.RecyclerView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+    <!--  </android.support.v4.widget.SwipeRefreshLayout>-->
+
+</LinearLayout>

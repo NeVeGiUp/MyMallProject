@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/hot_recommend_shop_iv"
+        android:layout_width="124dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="@dimen/dp10"
+        android:src="@color/app_bg"/>
+
+    <TextView
+        android:id="@+id/hot_recommend_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp12"
+        android:gravity="center"
+        android:maxWidth="120dp"
+        android:text="迪优女棉服"
+        android:textColor="@color/colorBlack3"
+        android:textSize="@dimen/dp13"/>
+
+    <TextView
+        android:id="@+id/hot_recommend_price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:layout_marginTop="3dp"
+        android:text="¥186.00"
+        android:textColor="@color/app_red_bg"
+        android:textSize="@dimen/dp13"/>
+
+</LinearLayout>
